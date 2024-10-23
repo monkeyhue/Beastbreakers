@@ -1,0 +1,6 @@
+{
+	"parent": "gae:item/entity/spiderboss/512",
+	"textures": {
+		"0": "gae:item/entity/spiderboss/walk"
+	}
+}

@@ -1,0 +1,1 @@
+execute if entity @s[tag=btl.block] run function btl:block/main

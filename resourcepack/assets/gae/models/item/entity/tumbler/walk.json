@@ -1,0 +1,10 @@
+{
+	"parent": "gae:item/entity/tumbler/256",
+	"textures": {
+		"0": "gae:item/entity/tumbler/walk"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": 2}, "model": "gae:item/entity/tumbler/tan/walk"},
+		{"predicate": {"custom_model_data": 3}, "model": "gae:item/entity/tumbler/gray/walk"}
+    ]
+}

@@ -1,0 +1,112 @@
+{
+	"entity.chickendino.roar_female": {
+		"sounds": [
+		{
+			"name": "tta:entity/chickendino/female/roar/roar2",
+			"pitch": 1.03,
+			"attenuation_distance": 24
+		},
+		{
+			"name": "tta:entity/chickendino/female/roar/roar2",
+			"attenuation_distance": 24
+		},
+		{
+			"name": "tta:entity/chickendino/female/roar/roar2",
+			"pitch": 0.97,
+			"attenuation_distance": 24
+		},
+		{
+			"name": "tta:entity/chickendino/female/roar/roar3",
+			"pitch": 1.03,
+			"attenuation_distance": 24
+		},
+		{
+			"name": "tta:entity/chickendino/female/roar/roar3",
+			"attenuation_distance": 24
+		},
+		{
+			"name": "tta:entity/chickendino/female/roar/roar3",
+			"pitch": 0.97,
+			"attenuation_distance": 24
+		}
+		]
+	},
+	"entity.chickendino.roar_male": {
+		"sounds": [
+		{
+			"name": "tta:entity/chickendino/male/roar/roar1",
+			"pitch": 1.03,
+			"attenuation_distance": 24
+		},
+		{
+			"name": "tta:entity/chickendino/male/roar/roar1",
+			"attenuation_distance": 24
+		},
+		{
+			"name": "tta:entity/chickendino/male/roar/roar1",
+			"pitch": 0.97,
+			"attenuation_distance": 24
+		},
+		{
+			"name": "tta:entity/chickendino/male/roar/roar2",
+			"pitch": 1.03,
+			"attenuation_distance": 24
+		},
+		{
+			"name": "tta:entity/chickendino/male/roar/roar2",
+			"attenuation_distance": 24
+		},
+		{
+			"name": "tta:entity/chickendino/male/roar/roar2",
+			"pitch": 0.97,
+			"attenuation_distance": 24
+		}
+		]
+	},
+	"entity.chickendino.egg_scream": {
+		"sounds": [
+		{
+			"name": "tta:entity/chickendino/female/roar/roar1",
+			"pitch": 1.02
+		},
+		{
+			"name": "tta:entity/chickendino/female/roar/roar1"
+		},
+		{
+			"name": "tta:entity/chickendino/female/roar/roar1",
+			"pitch": 0.98
+		}
+		]
+	},
+	"entity.chickendino.hurt": {
+		"sounds": [
+		{
+			"name": "tta:entity/chickendino/hurt/hurt1",
+			"pitch": 1.05
+		},
+		{
+			"name": "tta:entity/chickendino/hurt/hurt1"
+		},
+		{
+			"name": "tta:entity/chickendino/hurt/hurt1",
+			"pitch": 0.95
+		},
+		{
+			"name": "tta:entity/chickendino/hurt/hurt2",
+			"pitch": 1.05
+		},
+		{
+			"name": "tta:entity/chickendino/hurt/hurt2"
+		},
+		{
+			"name": "tta:entity/chickendino/hurt/hurt2",
+			"pitch": 0.95
+		}
+		]
+	},
+	"entity.chickendino.step": {
+		"sounds": [
+		{"name": "tta:entity/chickendino/step/step1"},{"name": "tta:entity/chickendino/step/step2"},{"name": "tta:entity/chickendino/step/step3"},{"name": "tta:entity/chickendino/step/step4"}
+		]
+	}
+}

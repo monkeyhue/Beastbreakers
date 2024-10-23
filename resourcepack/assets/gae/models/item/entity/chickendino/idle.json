@@ -1,0 +1,6 @@
+{
+	"parent": "tta:item/entity/chickendino/female/512",
+	"textures": {
+		"0": "tta:item/entity/chickendino/female/idle"
+	}
+}
