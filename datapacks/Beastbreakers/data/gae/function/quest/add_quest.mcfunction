@@ -2,7 +2,7 @@ function monkeylib:uuid2string/init
 data modify storage gae:temp bounty.addData.uuid set from storage monkeylib:root uuid2string.out
 
 #// This points to the totem type
-data modify storage gae:temp bounty.addData.type set value "basic"
+data modify storage gae:temp bounty.addData.type set value "tumbler"
 
 scoreboard players operation #gae.tempTime monkeylib.temp1 = #monkeylib.gametime monkeylib.time1
 scoreboard players add #gae.tempTime monkeylib.temp1 200
