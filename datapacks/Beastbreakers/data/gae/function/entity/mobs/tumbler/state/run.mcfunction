@@ -1,0 +1,1 @@
+$function gae:entity/mobs/tumbler/state/$(aiState) with storage gae:root currentEntities.$(id)

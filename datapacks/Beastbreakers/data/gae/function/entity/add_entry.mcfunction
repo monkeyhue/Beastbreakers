@@ -1,0 +1,1 @@
+$data modify storage gae:root currentEntities.$(id) set value {type:"$(type)",target:"null",aiState:0,id:$(id),moveSpeed:$(speed),fallSpeed:0d,detectRadius:1.5d,swim:1b,rotationSpeed:6d}

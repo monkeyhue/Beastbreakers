@@ -1,0 +1,1 @@
+execute if entity @s[tag=gae.e.mob] run function gae:entity/mob
