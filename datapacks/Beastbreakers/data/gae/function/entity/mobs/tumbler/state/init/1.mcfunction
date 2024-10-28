@@ -5,7 +5,7 @@ data modify storage monkeylib:temp changeAnim.animLength set value 30
 #// Data
 data modify storage monkeylib:temp changeAnim.model set value "gae:entity/tumbler/walk"
 $data modify storage gae:root currentEntities.$(id).moveSpeed set value 0.1
-execute store result storage monkeylib:temp entityActions.rotate.x int 1 run random value -120..120
+execute store result storage monkeylib:temp entityActions.rotate.x int 1 run random value -180..180
 data modify storage monkeylib:temp entityActions.rotate.y set value 0
 
 #// Execute

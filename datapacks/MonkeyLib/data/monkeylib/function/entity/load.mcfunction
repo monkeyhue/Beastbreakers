@@ -15,6 +15,7 @@ scoreboard objectives add monkeylib.entity.goalState dummy
 scoreboard objectives add monkeylib.entity.coyoteTime dummy
 scoreboard objectives add monkeylib.entity.fallingTime dummy
 scoreboard objectives add monkeylib.entity.stopAction dummy
+scoreboard objectives add monkeylib.entity.persistAction dummy
 
 #// Register as downloaded
 scoreboard players set #monkeylib.lib.entity monkeylib.active 1
