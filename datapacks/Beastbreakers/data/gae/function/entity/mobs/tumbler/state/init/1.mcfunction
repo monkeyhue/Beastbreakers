@@ -9,7 +9,7 @@ execute store result storage monkeylib:temp entityActions.rotate.x int 1 run ran
 data modify storage monkeylib:temp entityActions.rotate.y set value 0
 
 #// Execute
-function gae:entity/mobs/generic/actions/rotate with storage monkeylib:temp entityActions.rotate
+function gae:entity/movestates/motions/rotate with storage monkeylib:temp entityActions.rotate
 function monkeylib:entity/change_state
 
 #// Post
