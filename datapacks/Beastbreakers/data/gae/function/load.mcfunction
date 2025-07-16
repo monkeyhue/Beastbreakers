@@ -21,3 +21,4 @@ function monkeylib:item/load
 
 #// Tickly for pack
 function gae:tick
+function gae:tick_2s

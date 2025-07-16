@@ -1,0 +1,1 @@
+execute if entity @p[distance=..112] run function gae:entity/spawndata/begin_spawn

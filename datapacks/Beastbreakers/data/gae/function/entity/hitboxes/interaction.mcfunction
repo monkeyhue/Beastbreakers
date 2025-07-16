@@ -1,0 +1,2 @@
+execute if predicate monkeylib:entity/interaction/attack run return run function gae:entity/hitboxes/interaction/attack
+execute if predicate monkeylib:entity/interaction/interaction run function gae:entity/hitboxes/interaction/interact

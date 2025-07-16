@@ -1,8 +1,8 @@
 $execute if block ~ ~-0.15 ~ #monkeylib:intangible if block ^ ^-0.15 ^$(detectRadius) #monkeylib:intangible if block ^ ^-0.15 ^-1 #monkeylib:intangible if block ^ ^$(stepHeight) ^1 #monkeylib:intangible run function gae:entity/mobs/generic/actions/execute/falling with storage gae:root currentEntities.$(id)
-$execute unless block ^ ^0.05 ^$(detectRadius) #monkeylib:intangible_no_fluids run function gae:entity/mobs/generic/actions/execute/rising with storage gae:root currentEntities.$(id)
-$execute unless block ~ ~ ~ #monkeylib:intangible_no_fluids run function gae:entity/mobs/generic/actions/execute/rising_stationary with storage gae:root currentEntities.$(id)
+$execute unless block ^ ^0.05 ^$(detectRadius) #monkeylib:intangible run function gae:entity/mobs/generic/actions/execute/rising with storage gae:root currentEntities.$(id)
+$execute unless block ~ ~ ~ #monkeylib:intangible run function gae:entity/mobs/generic/actions/execute/rising_stationary with storage gae:root currentEntities.$(id)
 
-$execute unless score @s monkeylib.entity.persistAction matches 1.. unless block ^ ^1 ^$(detectRadius) #monkeylib:intangible_no_fluids unless block ^ ^$(stepHeight) ^$(detectRadius) #monkeylib:intangible_no_fluids run function $(namespace):entity/mobs/$(type)/actions/hit_wall with storage gae:root currentEntities.$(id)
+$execute unless score @s monkeylib.entity.persistAction matches 1.. unless block ^ ^1 ^$(detectRadius) #monkeylib:intangible unless block ^ ^$(stepHeight) ^$(detectRadius) #monkeylib:intangible run function $(namespace):entity/mobs/$(type)/actions/hit_wall with storage gae:root currentEntities.$(id)
 $execute unless score @s monkeylib.entity.stopAction matches 1.. unless score @s monkeylib.entity.persistAction matches 1.. if block ^ ^-$(fallHeight) ^1 #monkeylib:intangible_no_fluids if block ^ ^-1 ^1 #monkeylib:intangible_no_fluids if block ^ ^-2 ^1 #monkeylib:intangible_no_fluids unless block ~ ~-0.15 ~ #monkeylib:intangible_no_fluids run function $(namespace):entity/mobs/$(type)/actions/hit_ledge with storage gae:root currentEntities.$(id)
 
 execute if score @s monkeylib.entity.stopAction matches 1.. run return run function gae:entity/mobs/generic/actions/execute/stop

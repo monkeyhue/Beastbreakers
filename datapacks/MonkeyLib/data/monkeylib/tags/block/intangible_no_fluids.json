@@ -12,7 +12,7 @@
 	  "#minecraft:rails",
 	  "#minecraft:signs",
 	  "#minecraft:small_flowers",
-	  "#minecraft:tall_flowers",
+	  { "id" : "#minecraft:tall_flowers", "required": false },
 	  "#minecraft:wall_corals",
 	  "minecraft:acacia_sapling",
 	  "minecraft:attached_melon_stem",

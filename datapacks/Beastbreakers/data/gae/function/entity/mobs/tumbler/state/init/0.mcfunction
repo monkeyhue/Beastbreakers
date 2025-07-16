@@ -17,3 +17,6 @@ scoreboard players set @s monkeylib.entity.AIState 0
 execute on passengers on vehicle run scoreboard players add @s monkeylib.temp1 1
 $execute unless score @s monkeylib.temp1 matches 2 run return run function gae:entity/mobs/tumbler/state/die with storage gae:root currentEntities.$(id)
 scoreboard players reset @s monkeylib.temp1
+
+#// Attempt a despawn
+$execute unless entity @p[distance=..112] run function gae:entity/mobs/generic/despawn with storage gae:root currentEntities.$(id)

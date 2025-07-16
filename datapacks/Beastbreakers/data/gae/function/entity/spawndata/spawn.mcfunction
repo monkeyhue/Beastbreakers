@@ -1,0 +1,1 @@
+$function gae:entity/spawndata/summon/$(mob) with storage gae:temp spawnFromData
