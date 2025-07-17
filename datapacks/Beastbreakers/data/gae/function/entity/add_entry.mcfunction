@@ -1,1 +1,1 @@
-$data modify storage gae:root currentEntities.$(id) set value {namespace:"gae",type:"$(type)",target:"null",aiState:0,id:$(id),moveSpeed:$(speed)d,stepHeight:$(stepHeight)d,fallHeight:$(fallHeight)d,fallSpeed:0d,detectRadius:$(detectRadius)d,swim:1b,rotationSpeed:$(rotationSpeed)}
+$data modify storage gae:root currentEntities.$(id) set value {namespace:"gae",type:"$(type)",target:"null",aiState:0,id:$(id),moveSpeed:$(speed)d,stepHeight:$(stepHeight)d,fallHeight:$(fallHeight)d,fallSpeed:0d,detectRadius:$(detectRadius),rotationSpeed:$(rotationSpeed),coreHitbox:"$(coreHitbox)"}

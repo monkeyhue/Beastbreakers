@@ -1,0 +1,1 @@
+$data modify entity $(hitboxOwner) data.gae.coreHitbox set from storage monkeylib:root uuid2string.out

@@ -5,4 +5,5 @@ data modify storage gae:temp addNewEntity.stepHeight set value 1.5
 data modify storage gae:temp addNewEntity.fallHeight set value 5
 data modify storage gae:temp addNewEntity.rotationSpeed set value 5
 data modify storage gae:temp addNewEntity.detectRadius set value 2
+data modify storage gae:temp addNewEntity.coreHitbox set from entity @s data.gae.coreHitbox
 function gae:entity/add_entry with storage gae:temp addNewEntity

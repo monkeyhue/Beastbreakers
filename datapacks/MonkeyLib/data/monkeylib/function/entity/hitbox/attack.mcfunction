@@ -4,5 +4,4 @@ scoreboard players set #monkeylib.temp monkeylib.temp1 1024
 scoreboard players operation #monkeylib.temp monkeylib.temp1 -= @s monkeylib.entity.health
 
 data modify storage monkeylib:temp changeAnim.hurt set value 1
-execute on vehicle run function monkeylib:entity/objmc/hurt with storage monkeylib:temp changeAnim
-
+$execute as $(hitboxOwner) run function monkeylib:entity/objmc/hurt with storage monkeylib:temp changeAnim
