@@ -1,1 +1,1 @@
-$execute positioned ~$(oX) ~$(oY) ~$(oZ) run tp @s ^ ^ ^$(move)
+$execute positioned ~ ~$(oY) ~ run tp @s ^ ^ ^$(move)

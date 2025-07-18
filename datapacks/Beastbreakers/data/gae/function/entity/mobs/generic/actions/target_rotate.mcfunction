@@ -1,2 +1,1 @@
-$rotate @s facing $(x) $(y) $(z)
-data remove storage gae:temp targetRotate
+$rotate @s facing $(targetX) $(targetY) $(targetZ)

@@ -4,5 +4,5 @@ scoreboard players add @s monkeylib.entity.behaviorTime 1
 
 $function gae:entity/movestates/idle_stationary with storage gae:root currentEntities.$(id)
 
-execute if score @s monkeylib.entity.behaviorTime matches ..239 run return 0
+execute if score @s monkeylib.entity.behaviorTime matches ..10 run return 0
 $data modify storage gae:root currentEntities.$(id).aiState set value 1

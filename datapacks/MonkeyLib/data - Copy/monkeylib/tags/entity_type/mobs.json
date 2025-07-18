@@ -1,0 +1,9 @@
+{
+	"values": [
+		"minecraft:player",
+		"#monkeylib:boss",
+		"#monkeylib:hostile",
+		"#monkeylib:neutral",
+		"#monkeylib:passive"
+	]
+}

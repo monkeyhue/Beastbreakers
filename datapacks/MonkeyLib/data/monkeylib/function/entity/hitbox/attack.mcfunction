@@ -5,3 +5,5 @@ scoreboard players operation #monkeylib.temp monkeylib.temp1 -= @s monkeylib.ent
 
 data modify storage monkeylib:temp changeAnim.hurt set value 1
 $execute as $(hitboxOwner) run function monkeylib:entity/objmc/hurt with storage monkeylib:temp changeAnim
+
+scoreboard players set @s monkeylib.entity.hurtTime 9
