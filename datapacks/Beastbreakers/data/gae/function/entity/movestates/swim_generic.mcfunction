@@ -5,7 +5,7 @@ execute unless score @s monkeylib.entity.fallSpeed < #0 monkeylib.temp1 if block
 execute if score @s monkeylib.entity.fallSpeed < #0 monkeylib.temp1 run function gae:entity/movestates/motions/gravity
 
 #// Might as well jump!
-execute unless score @s monkeylib.entity.fallSpeed < #0 monkeylib.temp1 if block ^ ^ ^1 #monkeylib:solid run scoreboard players set @s monkeylib.entity.fallSpeed -52
+execute unless score @s monkeylib.entity.fallSpeed < #0 monkeylib.temp1 if block ^ ^ ^1 #monkeylib:solid run scoreboard players set @s monkeylib.entity.fallSpeed -40
 
 #data modify storage gae:temp currentEntity.movement.oX set value 0
 execute store result storage gae:temp currentEntity.movement.oY float 0.01 run scoreboard players get @s monkeylib.entity.oY
