@@ -1,6 +1,6 @@
 {
 	"parent": "gae:item/entity/tumbler/256",
 	"textures": {
-		"0": "gae:item/entity/tumbler/walk"
+		"0": "gae:item/entity/tumbler/swim"
 	}
 }

@@ -1,7 +1,8 @@
 {
 	"values": [
 	"minecraft:item_display",
-	"minecraft:vindicator",
-	"minecraft:marker"
+	"minecraft:marker",
+	"minecraft:interaction",
+	"minecraft:slime"
 	]
 }

@@ -9,4 +9,5 @@ $execute if score @s monkeylib.entity.fallDistance >= #1 monkeylib.temp1 as $(co
 
 # Reset scores
 scoreboard players reset @s monkeylib.entity.fallDistance
+scoreboard players reset @s monkeylib.entity.fallSpeed
 scoreboard players reset #temp monkeylib.temp1

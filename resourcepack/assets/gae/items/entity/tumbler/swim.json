@@ -1,0 +1,12 @@
+{
+    "model": {
+      "type": "minecraft:model",
+      "model": "gae:item/entity/tumbler/swim",
+      "tints": [
+        {
+          "type": "minecraft:dye",
+          "default": -6265536
+        }
+      ]
+    }
+  }

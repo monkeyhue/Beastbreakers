@@ -2,9 +2,5 @@
 	"parent": "gae:item/entity/tumbler/512",
 	"textures": {
 		"0": "gae:item/entity/tumbler/idle"
-	},
-	"overrides": [
-		{"predicate": {"custom_model_data": 2}, "model": "gae:item/entity/tumbler/tan/idle"},
-		{"predicate": {"custom_model_data": 3}, "model": "gae:item/entity/tumbler/gray/idle"}
-    ]
+	}
 }
