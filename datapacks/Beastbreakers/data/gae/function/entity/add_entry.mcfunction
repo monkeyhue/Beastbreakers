@@ -15,6 +15,6 @@ $data modify storage gae:root currentEntities.$(id) set value \
         targetZ:0,  \
     },  \
     properties:{    \
-        width:$(width), \
-        height:$(height),   \
+        width:$(width_checks), \
+        height:$(height_checks),   \
     }}
