@@ -9,7 +9,7 @@ execute unless score @s monkeylib.entity.fallSpeed < #0 monkeylib.temp1 unless b
 execute store result storage gae:temp currentEntity.movement.oY float 0.01 run scoreboard players get @s monkeylib.entity.oY
 #data modify storage gae:temp currentEntity.movement.oZ set value 0
 
-function gae:entity/movestates/motions/execute with storage gae:temp movement
+function gae:entity/movestates/motions/execute with storage gae:temp currentEntity.movement
 
 #scoreboard players reset @s monkeylib.entity.oX
 scoreboard players reset @s monkeylib.entity.oY

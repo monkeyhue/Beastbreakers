@@ -4,6 +4,7 @@ data modify storage monkeylib:temp changeAnim.animLength set value 40
 
 #// Data
 data modify storage monkeylib:temp changeAnim.model set value "gae:entity/tumbler/idle"
+$data modify storage gae:root currentEntities.$(id).movement.moveSpeed set value 0.0
 
 #// Execute
 function monkeylib:entity/change_state

@@ -5,5 +5,5 @@ execute if score @s monkeylib.entity.fallSpeed matches 392.. run scoreboard play
 scoreboard players operation @s monkeylib.entity.oY -= @s monkeylib.entity.fallSpeed
 scoreboard players operation @s monkeylib.entity.fallDistance += @s monkeylib.entity.fallSpeed
 
-execute if score @s monkeylib.entity.fallSpeed matches 40..120 run function gae:entity/movestates/motions/ground_snap_light
-execute if score @s monkeylib.entity.fallSpeed matches 120.. run function gae:entity/movestates/motions/ground_snap
+execute if score @s monkeylib.entity.fallSpeed matches 10..100 align y run function gae:entity/movestates/motions/ground_snap_light
+execute if score @s monkeylib.entity.fallSpeed matches 101.. align y run function gae:entity/movestates/motions/ground_snap
