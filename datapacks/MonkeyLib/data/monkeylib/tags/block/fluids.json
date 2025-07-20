@@ -1,6 +1,9 @@
 {
 	"values": [
 	"minecraft:water",
-	"minecraft:lava"
+	"minecraft:lava",
+	"minecraft:seagrass",
+	"minecraft:tall_seagrass",
+	"minecraft:kelp"
 	]
 }

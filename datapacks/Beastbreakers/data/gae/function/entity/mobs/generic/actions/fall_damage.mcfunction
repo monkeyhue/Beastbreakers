@@ -11,3 +11,4 @@ $execute if score @s monkeylib.entity.fallDistance >= #1 monkeylib.temp1 unless 
 scoreboard players reset @s monkeylib.entity.fallDistance
 scoreboard players reset @s monkeylib.entity.fallSpeed
 scoreboard players reset #temp monkeylib.temp1
+tag @s remove gae.stopMoving

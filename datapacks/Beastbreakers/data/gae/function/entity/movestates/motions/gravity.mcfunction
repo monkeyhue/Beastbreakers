@@ -1,3 +1,5 @@
+tag @s remove gae.stopMoving
+
 scoreboard players operation @s monkeylib.entity.fallSpeed += #5 monkeylib.temp1
 
 execute if score @s monkeylib.entity.fallSpeed matches 392.. run scoreboard players set @s monkeylib.entity.fallSpeed 392

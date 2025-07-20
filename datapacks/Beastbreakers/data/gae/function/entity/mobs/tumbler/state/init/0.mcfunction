@@ -10,8 +10,8 @@ $data modify storage gae:root currentEntities.$(id).movement.moveSpeed set value
 function monkeylib:entity/change_state
 
 #// Post
-execute store result score @s monkeylib.entity.behaviorTime run random value 0..79
-scoreboard players set @s monkeylib.entity.AIState 0
+execute store result score @s monkeylib.entity.behaviorTime run random value 0..120
+scoreboard players set @s monkeylib.entity.AIInit 0
 
 #// Check if hitboxes are still intact
 execute on passengers on vehicle run scoreboard players add @s monkeylib.temp1 1

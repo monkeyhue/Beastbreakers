@@ -1,5 +1,6 @@
 #// General Entity Scores
 scoreboard objectives add monkeylib.entity.AIState dummy
+scoreboard objectives add monkeylib.entity.AIInit dummy
 scoreboard objectives add monkeylib.entity.health dummy
 scoreboard objectives add monkeylib.entity.maxHealth dummy
 scoreboard objectives add monkeylib.entity.hurtTime dummy
@@ -20,6 +21,7 @@ scoreboard objectives add monkeylib.entity.fallDistance dummy
 scoreboard objectives add monkeylib.entity.oX dummy
 scoreboard objectives add monkeylib.entity.oY dummy
 scoreboard objectives add monkeylib.entity.oZ dummy
+scoreboard objectives add monkeylib.entity.wallCheck dummy
 
 #// Register as downloaded
 scoreboard players set #monkeylib.lib.entity monkeylib.active 1

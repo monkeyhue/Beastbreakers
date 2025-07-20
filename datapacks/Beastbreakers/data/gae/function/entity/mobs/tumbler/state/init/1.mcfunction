@@ -13,14 +13,10 @@ execute store result score #temp monkeylib.temp1 run data get entity @s Pos[1]
 scoreboard players add #temp monkeylib.temp1 4
 execute store result storage gae:temp wanderTarget.under int 1.0 run scoreboard players get #temp monkeylib.temp1
 $data modify storage gae:temp wanderTarget.id set value $(id)
-execute summon marker run function gae:entity/mobs/generic/actions/find_wander_target with storage gae:temp wanderTarget
-
-#// Rotate to find that spot
-$execute as $(coreHitbox) run function gae:entity/mobs/generic/actions/target_rotate with storage gae:root currentEntities.$(id).movement
+execute summon area_effect_cloud run function gae:entity/mobs/generic/actions/find_wander_target with storage gae:temp wanderTarget
 
 #// Execute
 function monkeylib:entity/change_state
 
 #// Post
-execute store result score @s monkeylib.entity.behaviorTime run random value 0..59
-scoreboard players set @s monkeylib.entity.AIState 1
+scoreboard players set @s monkeylib.entity.AIInit 1

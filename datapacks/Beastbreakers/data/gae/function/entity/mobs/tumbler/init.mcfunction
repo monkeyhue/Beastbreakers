@@ -7,8 +7,11 @@ data modify storage gae:temp addNewEntity.coreHitbox set from entity @s data.gae
 
 #// Static Properties
 data modify storage gae:temp addNewEntity.width_checks set value 2
-data modify storage gae:temp addNewEntity.height_checks set value 3
+data modify storage gae:temp addNewEntity.height_checks set value 1
 data modify storage gae:temp addNewEntity.aggroRange set value 16
 data modify storage gae:temp addNewEntity.stepHeight set value 1
+data modify storage gae:temp addNewEntity.frontOffset set value 2.1
 
 function gae:entity/add_entry with storage gae:temp addNewEntity
+
+scoreboard players set @s monkeylib.entity.AIState 0
