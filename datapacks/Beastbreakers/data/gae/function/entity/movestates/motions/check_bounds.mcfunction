@@ -4,10 +4,10 @@ execute store result score #gae.wallcheck.up monkeylib.temp1 run data get storag
 execute store result score #gae.wallcheck.down monkeylib.temp1 run data get storage gae:temp currentEntity.fallHeight
 execute store result score #gae.wallcheck.left monkeylib.temp1 run data get storage gae:temp currentEntity.properties.width
 execute store result score #gae.wallcheck.right monkeylib.temp1 run data get storage gae:temp currentEntity.properties.width
-scoreboard players remove #gae.wallcheck.right monkeylib.temp1 1
 
 $execute positioned ^ ^ ^$(frontOffset) align y run function gae:entity/mobs/generic/actions/wall_detection/down
-$execute positioned ^ ^$(stepHeight) ^$(frontOffset) align y run function gae:entity/mobs/generic/actions/wall_detection/left
+$execute positioned ^ ^$(stepHeight) ^$(frontOffset) align y run function gae:entity/mobs/generic/actions/wall_detection/up
+$execute positioned ^ ^$(stepHeight) ^$(frontOffset) positioned ^-0.5 ^ ^ align y run function gae:entity/mobs/generic/actions/wall_detection/left
 $execute positioned ^ ^$(stepHeight) ^$(frontOffset) positioned ^0.5 ^ ^ align y run function gae:entity/mobs/generic/actions/wall_detection/right
 
 scoreboard players reset #gae.wallcheck.up

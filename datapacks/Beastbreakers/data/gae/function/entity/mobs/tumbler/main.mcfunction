@@ -4,6 +4,9 @@ execute unless score @s monkeylib.entity.AIState matches -1.. run function gae:e
 
 $execute store result storage gae:root currentEntities.$(id).aiState int 1 run scoreboard players get @s monkeylib.entity.AIState
 
+#// Hurt sound
+execute if score @s monkeylib.entity.hurtTime matches 1.. run function gae:entity/mobs/tumbler/actions/hurt
+
 #----- Tumbler State Machine -----
 #
 # States:
