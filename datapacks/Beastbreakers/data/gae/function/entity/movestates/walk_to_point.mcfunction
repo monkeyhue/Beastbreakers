@@ -1,5 +1,4 @@
 #// Execute gravity
-$data modify storage gae:temp currentEntity set from storage gae:root currentEntities.$(id)
 execute unless block ~ ~ ~ #monkeylib:intangible run function gae:entity/movestates/motions/rise_from_ground
 execute unless score @s monkeylib.entity.fallSpeed < #0 monkeylib.temp1 \
 if block ~ ~-0.05 ~ #monkeylib:intangible \
@@ -28,6 +27,3 @@ function gae:entity/movestates/motions/target_execute with storage gae:temp curr
 #scoreboard players reset @s monkeylib.entity.oX
 scoreboard players reset @s monkeylib.entity.oY
 #scoreboard players reset @s monkeylib.entity.oZ
-
-$data modify storage gae:root currentEntities.$(id) set from storage gae:temp currentEntity
-data remove storage gae:temp currentEntity

@@ -1,1 +1,1 @@
-$function gae:entity/mobs/generic/die with storage gae:root currentEntities.$(id)
+function gae:entity/mobs/generic/die with storage gae:temp currentEntity

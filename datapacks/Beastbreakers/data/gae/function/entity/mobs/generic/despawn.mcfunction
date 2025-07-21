@@ -1,4 +1,4 @@
-$execute summon marker run function gae:entity/spawndata/create with storage gae:root currentEntities.$(id)
+execute summon marker run function gae:entity/spawndata/create with storage gae:temp currentEntity
 $data remove storage gae:root currentEntities.$(id)
 
 execute on passengers run scoreboard players reset @s

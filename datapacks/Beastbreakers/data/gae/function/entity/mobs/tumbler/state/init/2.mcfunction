@@ -4,7 +4,7 @@ data modify storage monkeylib:temp changeAnim.animLength set value 32
 
 #// Data
 data modify storage monkeylib:temp changeAnim.model set value "gae:entity/tumbler/swim"
-$data modify storage gae:root currentEntities.$(id).movement.moveSpeed set value 0.13
+data modify storage gae:temp currentEntity.movement.moveSpeed set value 0.13
 
 #// Find a spot to wander to
 data modify storage gae:temp wanderTarget.min set value 12
