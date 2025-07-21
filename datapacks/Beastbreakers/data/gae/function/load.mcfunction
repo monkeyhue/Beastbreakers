@@ -8,6 +8,12 @@ scoreboard objectives add gae.dmg.fire dummy
 scoreboard objectives add gae.dmg.ice dummy
 scoreboard objectives add gae.dmg.plague dummy
 scoreboard objectives add gae.dmg.storm dummy
+scoreboard objectives add gae.entity.fireResist dummy
+scoreboard objectives add gae.entity.iceResist dummy
+scoreboard objectives add gae.entity.plagueResist dummy
+scoreboard objectives add gae.entity.stormResist dummy
+scoreboard objectives add gae.entity.resist dummy
+scoreboard objectives add gae.entity.envResist dummy
 
 #// Load other scores
 scoreboard objectives add gae.completedQuests dummy

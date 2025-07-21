@@ -1,4 +1,4 @@
-tag @s remove gae.stopMoving
+execute if entity @s[tag=gae.stopMoving] run function gae:entity/movestates/motions/reroute with storage gae:temp entityProcessor
 
 execute store result score #gae.wallcheck.up monkeylib.temp1 run data get storage gae:temp currentEntity.properties.height
 execute store result score #gae.wallcheck.down monkeylib.temp1 run data get storage gae:temp currentEntity.fallHeight

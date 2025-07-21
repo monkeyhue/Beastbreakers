@@ -9,7 +9,6 @@ scoreboard objectives add monkeylib.entity.id dummy
 scoreboard objectives add monkeylib.entity.dmgFactor dummy
 scoreboard objectives add monkeylib.entity.resFactor dummy
 scoreboard objectives add monkeylib.entity.timeToDespawn dummy
-scoreboard objectives add monkeylib.entity.animLength dummy
 scoreboard objectives add monkeylib.entity.behaviorTime dummy
 scoreboard objectives add monkeylib.entity.fxTime dummy
 scoreboard objectives add monkeylib.entity.goalState dummy
@@ -22,6 +21,7 @@ scoreboard objectives add monkeylib.entity.oX dummy
 scoreboard objectives add monkeylib.entity.oY dummy
 scoreboard objectives add monkeylib.entity.oZ dummy
 scoreboard objectives add monkeylib.entity.wallCheck dummy
+scoreboard objectives add monkeylib.entity.reposCooldown dummy
 
 #// Register as downloaded
 scoreboard players set #monkeylib.lib.entity monkeylib.active 1

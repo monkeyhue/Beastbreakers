@@ -1,2 +1,1 @@
-scoreboard players set @s monkeylib.entity.behaviorTime 999
 $kill @n[type=area_effect_cloud,scores={monkeylib.entity.id=$(id)}]

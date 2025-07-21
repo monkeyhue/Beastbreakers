@@ -4,6 +4,6 @@ scoreboard players add @s monkeylib.entity.behaviorTime 1
 
 $function gae:entity/movestates/idle_stationary with storage gae:root currentEntities.$(id)
 
-execute if score @s monkeylib.entity.behaviorTime matches ..2 run return 0
+execute if score @s monkeylib.entity.behaviorTime matches ..280 run return 0
 execute if block ~ ~-1 ~ #monkeylib:intangible run return 0
 execute if entity @p[distance=..50] run scoreboard players set @s monkeylib.entity.AIState 1

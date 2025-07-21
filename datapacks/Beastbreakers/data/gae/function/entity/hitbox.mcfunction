@@ -1,2 +1,2 @@
-execute if entity @s[tag=monkeylib.hitbox] run function gae:entity/hitboxes/hitbox
-execute if entity @s[tag=monkeylib.interaction] run function gae:entity/hitboxes/interaction
+execute if entity @s[tag=monkeylib.hitbox,tag=!monkeylib.dni] run function gae:entity/hitboxes/hitbox
+execute if entity @s[tag=monkeylib.interaction,tag=!monkeylib.dni] run function gae:entity/hitboxes/interaction
