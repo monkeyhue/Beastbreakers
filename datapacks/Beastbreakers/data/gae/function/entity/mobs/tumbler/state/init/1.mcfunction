@@ -20,3 +20,4 @@ function monkeylib:entity/change_state
 
 #// Post
 scoreboard players set @s monkeylib.entity.AIInit 1
+scoreboard players set @s monkeylib.entity.sfxTime2 9

@@ -10,7 +10,12 @@ scoreboard objectives add monkeylib.entity.dmgFactor dummy
 scoreboard objectives add monkeylib.entity.resFactor dummy
 scoreboard objectives add monkeylib.entity.timeToDespawn dummy
 scoreboard objectives add monkeylib.entity.behaviorTime dummy
-scoreboard objectives add monkeylib.entity.fxTime dummy
+scoreboard objectives add monkeylib.entity.fxTime1 dummy
+scoreboard objectives add monkeylib.entity.fxTime2 dummy
+scoreboard objectives add monkeylib.entity.fxTime3 dummy
+scoreboard objectives add monkeylib.entity.sfxTime1 dummy
+scoreboard objectives add monkeylib.entity.sfxTime2 dummy
+scoreboard objectives add monkeylib.entity.sfxTime3 dummy
 scoreboard objectives add monkeylib.entity.goalState dummy
 scoreboard objectives add monkeylib.entity.coyoteTime dummy
 scoreboard objectives add monkeylib.entity.isFalling dummy
